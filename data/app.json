@@ -1,0 +1,12 @@
+{
+    "Title": "Unitiled App",
+    "Version": "1.0.0",
+    "license": "MIT",
+    "author": "PhuogWin",
+    
+
+    "width": 300,
+    "height": 150,
+    "aot": true,
+    "globlal_key": true
+}

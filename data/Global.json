@@ -1,0 +1,11 @@
+{
+    "name": "UntitledApp_1",
+    "version": "1.0.0",
+    "description": "Xử lý Ai để thực hiện kiểm tra đơn giản với các form đã được train",
+    "supporter": "PhuoWin",
+    "author": "PhuoWin",
+    "license": "MIT",
+    "dependencies": {
+        "python": ">=3.10.0"
+    }
+}

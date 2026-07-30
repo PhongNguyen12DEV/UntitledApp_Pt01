@@ -1,0 +1,3 @@
+-- làm 1 cái cửa sổ mở đc
+-- alway on top
+-- bắt key toàn hệ thống
