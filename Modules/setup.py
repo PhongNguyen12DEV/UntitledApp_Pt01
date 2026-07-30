@@ -14,6 +14,8 @@ with open("data/app.json", "r", encoding="utf-8") as app:
     AppData = json.load(app)
 
 
+
+
 def Logo():
     print(colorama.Fore.LIGHTRED_EX + r"""
  _   _       _   _ _   _          _      _               
