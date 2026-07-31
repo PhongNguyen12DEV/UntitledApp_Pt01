@@ -63,3 +63,6 @@ Thumbs.db
 # Secrets
 secret*
 config.local.*
+
+#key
+key.json

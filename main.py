@@ -1,6 +1,8 @@
 import Modules.app as app
 import Modules.setup as setup
 import time
+import Modules.key as key
+import Modules.webhook as dis 
 
 
 
@@ -15,9 +17,27 @@ while running:
         setup.back()
     elif choice == "2":
         setup.Clear()
-        print(setup.colorama.Fore.LIGHTYELLOW_EX + "Đang khởi động app...")
+        key.setup()
+        if not key.is_setup():
+
+            print("=== Thiết lập lần đầu ===")
+
+            if not key.has_webhook():
+                webhook = input("Discord Webhook: ")
+                key.set_webhook(webhook)
+
+            if not key.has_gemini():
+                api = input("Gemini API: ")
+                key.set_gemini_api(api)
+
+            print("Đã lưu cấu hình!\n")
+
+        print("Đang khởi động app...")
         time.sleep(1)
+
         App = app.App()
+        App.mainloop()
+
         setup.back()
 
 

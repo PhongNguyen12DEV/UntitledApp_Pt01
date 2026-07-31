@@ -52,9 +52,11 @@ def In4():
     print(colorama.Fore.LIGHTCYAN_EX + f"Đừng quên ghé thăm github và follow tiktok của tớ nha")
     print("//////////////////////////////////////////////////////////////////////\n")
     print(colorama.Fore.LIGHTBLUE_EX + f"Cảm ơn các con vợ nhìu: {Data['supporter']}")
-    print(colorama.Fore.LIGHTBLUE_EX + f"[1] - Xem thông tin máy [2] Bật app [3] -Thoát\n")
+    print(colorama.Fore.LIGHTBLUE_EX + f"[1] - Xem thông tin máy [2] - Bật app [3] - Thoát\n")
     print("//////////////////////////////////////////////////////////////////////\n")
     print(colorama.Fore.LIGHTYELLOW_EX + f"Chọn mục để bắt đầu nha cậu: ")
+
+
 
 def back():
     print(colorama.Fore.LIGHTYELLOW_EX + "\n\nẤn Enter để quay lại nha cậu...")
